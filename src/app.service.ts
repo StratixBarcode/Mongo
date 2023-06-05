@@ -3,11 +3,11 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class AppService {
   getHello(): string {
-    return this.v1_Hello();
+    return this.v2_Hello();
   }
 
-  v1_Hello(): string {
-    return 'Hello World v1!';
+  v2_Hello(): string {
+    return 'Hello World v2!';
   }
-  
+
 }
