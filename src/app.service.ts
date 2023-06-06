@@ -3,16 +3,16 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class AppService {
   getHello(): string {
-    const hello = this.mainHello888()
+    const hello = this.mainHello777()
     console.log(hello)
     return hello
   }
   
-  mainHello888(): string {
-    return 'Hello main 888!';
+  mainHello777(): string {
+    return 'Hello main 777!';
   }
 
-  mainTest(): number{
-    return 888;
+  mainTest123(): number{
+    return 123;
   }
 }
