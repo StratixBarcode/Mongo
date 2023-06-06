@@ -9,6 +9,6 @@ export class AppService {
   }
   
   mainHello() {
-    return 'Hello main!';
+    return 'Hello main 888!';
   }
 }
