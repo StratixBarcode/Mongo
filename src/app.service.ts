@@ -7,6 +7,12 @@ export class AppService {
   }
   
   v2ZHello() {
+    const hello = this.mainHello()
+    console.log(hello)
     return 'Hello v2!';
+  }
+  
+  mainHello() {
+    return 'Hello main!';
   }
 }
