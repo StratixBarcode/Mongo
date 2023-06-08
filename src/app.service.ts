@@ -11,7 +11,7 @@ export class AppService {
   }
   
   mainHello(): string {
-    return 'main Hello!';
+    return 'main Hello 101!';
   }
 
 }
