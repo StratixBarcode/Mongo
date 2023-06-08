@@ -4,13 +4,13 @@ import { Injectable } from '@nestjs/common';
 export class AppService {
   getHello(): string {
 
-    const hello = this.mainHello_101()
+    const hello = this.mainHello_102()
 
     console.log(hello)
     return hello
   }
   
-  mainHello_101(): string {
+  mainHello_102(): string {
     return 'main Hello!';
   }
 
